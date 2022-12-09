@@ -1,0 +1,22 @@
+@import '../utils/variables.scss';
+
+footer {
+    background-color: $color-primary-faded;
+    
+    width: 100%;
+    position: fixed;
+    height: 3vh;
+    bottom: 0vh;
+
+    text-align: right;
+    padding-bottom: 1em;
+    
+
+    & > a {
+        color: $color-link;
+        padding-right: 2em;
+        margin-bottom: 0.5em;
+        font-size: small;
+        
+    }
+}

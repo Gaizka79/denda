@@ -1,0 +1,16 @@
+@import '../utils/variables.scss';
+
+*{
+    box-sizing: border-box;
+}
+main {
+    position: relative;
+    z-index: -1;
+    top: 31vh;
+    background-color: $color-primary;
+    
+    overflow: hidden;
+    /* padding-bottom: 1vh; */
+
+    padding: 5vh 3vh;
+}

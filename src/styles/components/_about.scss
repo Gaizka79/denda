@@ -1,0 +1,31 @@
+@import '../utils/variables.scss';
+
+.about {
+    color: black;
+    & > .horarios {
+        /* margin: 0 50vh; */
+        float: left;
+        margin-right: 3em;
+    }
+
+    & > .mapa {
+        /* float: right; */
+        width: 50vh;
+        overflow: hidden;
+
+        & > iframe {
+            height: 25em;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    & > .contacto {
+        clear: both;
+    }
+    & > .contacto .link {
+        color: $color-link;
+        
+    }
+}
