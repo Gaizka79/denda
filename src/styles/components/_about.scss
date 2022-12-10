@@ -14,6 +14,8 @@
             width: 100%;
             margin-left: auto;
             margin-right: auto;
+            overflow: hidden;
+            
         }
     }
     & > .contacto {
@@ -21,5 +23,12 @@
     }
     & > .contacto .link {
         color: $color-link;
+    }
+}
+
+@media only screen and (max-width:1312px) {
+    .about .mapa {
+        width: 80%;
+        margin: auto;
     }
 }
